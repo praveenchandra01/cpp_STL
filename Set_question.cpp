@@ -19,7 +19,5 @@ int main()
     for(auto i: s){
       cout<<i<<endl;
   }
-
-
   return 0;
 }

@@ -30,6 +30,5 @@ int main()
   for(int i=0;i<v.size();i++){
     printVec(v[i]);
   }
-
   return 0;
 }

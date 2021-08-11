@@ -44,16 +44,16 @@ int main()
   }
   printVec(v);
 
-//   vector<int> v;
-//   int n ;
-//   cin>>n;
-//   for(int i=0;i<n;i++){
-//     int e;
-//     cin>>e;
-//     // printVec(v);
-//     v.push_back(e); //O(1)
-//   }
-// printVec(v);
+  //   vector<int> v;
+  //   int n ;
+  //   cin>>n;
+  //   for(int i=0;i<n;i++){
+  //     int e;
+  //     cin>>e;
+  //     // printVec(v);
+  //     v.push_back(e); //O(1)
+  //   }
+  // printVec(v);
 
   // vector<int> v(10); //size->10,by_default initialise with 0
   // vector<int> v(10,3); //prefill with 3
@@ -73,14 +73,14 @@ int main()
   // printVec(v);
   // printVec(v2);
 
-//   vector<string> v;
-//   int n;
-//   cin>>n;
-//   for(int i=0;i<n;i++){
-//     string s;
-//     cin>>s;
-//     v.push_back(s);
-//   }
-// printVec(v);
+  //   vector<string> v;
+  //   int n;
+  //   cin>>n;
+  //   for(int i=0;i<n;i++){
+  //     string s;
+  //     cin>>s;
+  //     v.push_back(s);
+  //   }
+  // printVec(v);
   return 0;
 }

@@ -16,8 +16,7 @@ int main()
     cout<<max_heap.top()<<" ";
     max_heap.pop();
   }cout<<endl;
-
-
+  
   // min_heap
   priority_queue<int,vector<int>, greater<int>> min_heap;
   min_heap.push(5);
