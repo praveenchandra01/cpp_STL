@@ -25,7 +25,6 @@ int main()
   return 0;
 }
 
-//
 // input :8
 // abc
 // def
