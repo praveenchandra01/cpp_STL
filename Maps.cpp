@@ -4,8 +4,8 @@
 using namespace std;
 void printMap(map<int, string> &m){
   cout<<m.size()<<endl;
-  for(auto &pr: m){ //O(n)
-    cout<<pr.first<<" "<<pr.second<<endl; //O(log n)
+  for(auto &i: m){ //O(n)
+    cout<<i.first<<" "<<i.second<<endl; //O(log n)
   }
 }
 int main()

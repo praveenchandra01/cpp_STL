@@ -1,4 +1,4 @@
-// Unorderd Maps : Data store in Unorderdly ,implement using Hash table ,every key has unique hash value.
+// Unorderd Maps : Data store in Unorderdly ,implement using Hash table ,every key has using hash value.
 // we cannot use copmlex  data structurs as keys in unordered_map because their hash function is not defined
 
 #include<iostream>
