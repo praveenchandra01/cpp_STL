@@ -1,4 +1,4 @@
-// Set: set stors unique sorted values , internally implement using Binary Search tree
+// Set: set stors unique sorted values in ascending order, internally implement using Binary Search tree
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
