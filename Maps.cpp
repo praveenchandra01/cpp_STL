@@ -44,15 +44,6 @@ int main()
     //   cout<<i.first<<" "<<i.second<<endl;
     // }
 
-// NORMAL LOOP
-    // unordered_map<int, int> m;
-    // for(int i=1;i<6;i++){
-    //   m[i]++;
-    // }
-    // for(int i=1;i<6;i++){
-    //   cout<<i<<" "<<m[i]<<endl;
-    // }
-
 // NORMAL LOOP WITH ITERATOR
     // map<int, string> m;
     // m[1]="abc";
@@ -65,5 +56,13 @@ int main()
     //     cout<<(*it).first<<" "<<(*it).second<<endl;
     //     }
 
+// NORMAL LOOP - not use bcoz sometimes it gives qwrong answer
+    // unordered_map<int, int> m;
+    // for(int i=1;i<6;i++){
+    //   m[i]++;
+    // }
+    // for(int i=1;i<6;i++){
+    //   cout<<i<<" "<<m[i]<<endl;
+    // }
   return 0;
 }
