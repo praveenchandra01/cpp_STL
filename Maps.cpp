@@ -30,5 +30,40 @@ int main()
     m.clear();
     printMap(m);
 
+
+// RANGE BASED LOOP
+    // unordered_map<string, string> m;
+    // m["name"]="praveen";
+    // m["sal"]="30000";
+    // m["Id"]="13075";
+
+    // for(auto i : m){
+    //   m.insert({1,2});
+    // }
+    // for(auto i : m){
+    //   cout<<i.first<<" "<<i.second<<endl;
+    // }
+
+// NORMAL LOOP
+    // unordered_map<int, int> m;
+    // for(int i=1;i<6;i++){
+    //   m[i]++;
+    // }
+    // for(int i=1;i<6;i++){
+    //   cout<<i<<" "<<m[i]<<endl;
+    // }
+
+// NORMAL LOOP WITH ITERATOR
+    // map<int, string> m;
+    // m[1]="abc";
+    // m[5]="bcd";
+    // m[3]="efg";
+    // m.insert({4,"pqr"});
+    // // map<int, string> :: iterator it;
+    // for(auto it=m.begin(); it!=m.end();it++){
+    //     // cout<<it->first<<" "<<it->second<<endl;
+    //     cout<<(*it).first<<" "<<(*it).second<<endl;
+    //     }
+
   return 0;
 }
