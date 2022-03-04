@@ -26,7 +26,7 @@ int main()
     v.push_back(temp);
   }
   v[0].push_back(10);
-  v.push_back(vector<int> ());
+  v.push_back(vector<int> ()); //empty vector push_back
   for(int i=0;i<v.size();i++){
     printVec(v[i]);
   }

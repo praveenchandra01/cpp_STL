@@ -56,7 +56,7 @@ int main()
     //     cout<<(*it).first<<" "<<(*it).second<<endl;
     //     }
 
-// NORMAL LOOP - not use bcoz sometimes it gives qwrong answer
+// NORMAL LOOP - not use bcoz sometimes it gives wrong answer
     // unordered_map<int, int> m;
     // for(int i=1;i<6;i++){
     //   m[i]++;
