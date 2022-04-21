@@ -17,6 +17,13 @@ int main()
   l.push_front(1); //O(1)
   l.push_front(0);
 
+  list<int> :: iterator it;
+  it=l.begin();
+  while(it != (l.end())){
+    cout<<"List : "<<*it<<'\n';
+    it++;
+  }
+
   for(int i: l){
     cout<<i<<" ";
   }cout<<endl;
